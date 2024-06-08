@@ -22,40 +22,52 @@
 </head>
 
 <body>
-<header class="header">
-  <div class="container header__container">
-    <a class="logo header__logo">
-      <img src="./img/icon/logo.svg" alt="Логотип сайта Blanchard">
-    </a>
-    <nav class="nav header__nav">
-      <ul class="nav__list list-reset">
-        <li class="nav__item">
-          <a href="#!" class="nav__link">О нас</a>
-        </li>
-        <li class="nav__item">
-          <a href="#!" class="nav__link">Галерея</a>
-        </li>
-        <li class="nav__item">
-          <a href="#!" class="nav__link">Каталог</a>
-        </li>
-        <li class="nav__item">
-          <a href="#!" class="nav__link">События</a>
-        </li>
-        <li class="nav__item">
-          <a href="#!" class="nav__link">Проекты</a>
-        </li>
-        <li class="nav__item">
-          <a href="#!" class="nav__link">Контакты</a>
-        </li>
-      </ul>
-    </nav>
-    <button class="header__search btn-reset">
-      <svg>
-        <use xlink:href="./sprite.svg#search"></use>
-      </svg>
-    </button>
-  </div>
-</header>
+  <header class="header">
+    <div class="container header__container">
+      <a class="logo header__logo">
+        <img src="./img/icon/logo.svg" alt="Логотип сайта Blanchard">
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list list-reset">
+          <li class="nav__item">
+            <a href="#!" class="nav__link">О нас</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link">Галерея</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link">Каталог</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link">События</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link">Проекты</a>
+          </li>
+          <li class="nav__item">
+            <a href="#!" class="nav__link">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="header__search btn-reset">
+        <svg>
+          <use xlink:href="./sprite.svg#search"></use>
+        </svg>
+      </button>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container hero__container"></div>
+      <picture class="hero__picture">
+        <source srcset="./img/hero-img/hero-img-1024.webp" media="(max-width: 1500px)" type="image/webp">
+        <source srcset="./img/hero-img/hero-img-1024.jpg" media="(max-width: 1500px)">
+        
+        <source srcset="./img/hero-img/hero-img@2x.webp 2x, ./img/hero-img/hero-img@1x.webp 1x"  type="image/webp">
+        <img src="./img/hero-img/hero-img@1x.jpg" alt="Изображение старинного замка">
+      </picture>
+    </section>
+  </main>
 </body>
 
 </html>
