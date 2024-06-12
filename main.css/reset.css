@@ -1,4 +1,3 @@
-
 /** Global config **/
 html {
   -webkit-box-sizing: border-box;
@@ -63,15 +62,29 @@ body {
 
 :root {
   /*! Colors */
-  --primary: #000;
-  --secondary: #fff;
+  --primary-color: #000;
+  --secondary-color: #fff;
+  --gray-color: #333;
+  --btn-color: #9d5cd0;
 
   /*! Font */
   --font-family: "Open Sans";
 }
 
+.title {
+  margin: 0;
+  font-weight: 400;
+  font-size: 48px;
+  color: var(--gray-color);
+}
 
-
+.description {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 2;
+  color: var(--gray-color);
+}
 
 .visually-hidden {
   position: absolute;
